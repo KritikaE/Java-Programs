@@ -5,7 +5,7 @@ public class FileEx extends JFrame
 {
 public FileEx()
 {
-String filePath = "D:\\Kritika-Cloud\\OneDrive\\BVRIT\\Java Programs\\Java-Programs\\table.txt";
+String filePath = "table.txt";
 try (java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(filePath)))
 {
 String line;

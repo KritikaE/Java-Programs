@@ -9,7 +9,7 @@ public class HashEx
 public static void main(String[] args)
 {
 Hashtable<String, String> map = new Hashtable<>();
-String filePath = "D:\\Kritika-Cloud\\OneDrive\\BVRIT\\Java Programs\\Java-Programs\\contacts.txt";
+String filePath = "contacts.txt";
 try (java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(filePath)))
 {
 String line;
